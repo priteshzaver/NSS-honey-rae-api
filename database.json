@@ -47,14 +47,14 @@
     {
       "id": 1,
       "address": "2802 Zula Locks",
-      "phoneNumber": "852-837-9713",
-      "userId": 2
+      "phoneNumber": "852-837-9714",
+      "userId": 1
     },
     {
       "id": 2,
       "address": "56849 Fadel Gateway",
       "phoneNumber": "202-244-7090",
-      "userId": 1
+      "userId": 2
     },
     {
       "id": 3,
@@ -66,8 +66,8 @@
   "employees": [
     {
       "id": 1,
-      "specialty": "PC Repair",
-      "rate": 72.47,
+      "specialty": "PC Repair and Mac repairs",
+      "rate": 78,
       "userId": 4
     },
     {
@@ -85,25 +85,18 @@
   ],
   "serviceTickets": [
     {
-      "id": 1,
-      "userId": 3,
-      "description": "Saepe ex sapiente deserunt et voluptas fugiat vero quasi. Ipsam est non ipsa. Occaecati rerum ipsa consequuntur. Ratione commodi unde sint non rerum. Sit quia et aut sunt.",
-      "emergency": false,
-      "dateCompleted": "Fri Apr 29 2022 14:02:20 GMT-0500 (Central Daylight Time)"
-    },
-    {
-      "id": 2,
       "userId": 3,
       "description": "Vero est adipisci sed natus quasi consectetur occaecati. Modi maxime sunt officia cumque. Vel at culpa. Sint accusamus deserunt dolorem qui.",
       "emergency": true,
-      "dateCompleted": ""
+      "dateCompleted": "2023-01-26T20:11:45.853Z",
+      "id": 2
     },
     {
-      "id": 3,
       "userId": 1,
-      "description": "Sunt pariatur et quidem hic voluptatem. Neque aliquam voluptas eos incidunt repellendus. Vero expedita non sit quaerat sit et eum. Quasi dolor voluptatem illum eum qui est expedita sequi accusamus.",
-      "emergency": false,
-      "dateCompleted": ""
+      "description": "Vero est adipisci sed natus quasi consectetur occaecati. Modi maxime sunt officia cumque. Vel at culpa. Sint accusamus deserunt dolorem qui.",
+      "emergency": true,
+      "dateCompleted": "2023-01-26T20:10:35.049Z",
+      "id": 3
     },
     {
       "id": 4,
@@ -118,14 +111,16 @@
       "description": "Pariatur nihil animi eos doloremque laborum fugiat consequuntur iusto. Et tempore a enim.",
       "emergency": true,
       "dateCompleted": "Fri Apr 29 2022 21:24:29 GMT-0500 (Central Daylight Time)"
+    },
+    {
+      "userId": 2,
+      "description": "My computer won't boot",
+      "emergency": true,
+      "dateCompleted": "",
+      "id": 6
     }
   ],
   "employeeTickets": [
-    {
-      "id": 1,
-      "employeeId": 3,
-      "serviceTicketId": 1
-    },
     {
       "id": 2,
       "employeeId": 2,
@@ -135,6 +130,11 @@
       "id": 3,
       "employeeId": 1,
       "serviceTicketId": 4
+    },
+    {
+      "employeeId": 1,
+      "serviceTicketId": 2,
+      "id": 4
     }
   ]
 }
